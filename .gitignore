@@ -1,1 +1,9 @@
+.idea
+__pycache__/
+*.pyc
+venv/
+.env
+*.log
+.ipynb_checkpoints/
+.vscode/
 .idea/
