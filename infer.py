@@ -43,7 +43,7 @@ if __name__ == "__main__":
     key_path = "key_dicts/key_dict_42.npz"
     key_dict = load_key_dict(key_path)      # load key used for image encryption.
     ori_img = load_img_tensor("./sample/imgnet_ori_224x224.png", size=224)      # load original image
-    enc_img = load_img_tensor("./sample/imgnet_dec.png", size=224)      # load encrypted image
+    enc_img = load_img_tensor("./sample/imgnet_enc.png", size=224)      # load encrypted image
 
     # for simplicity, initialize ViT model using timm
     ori_model = timm.create_model("vit_base_patch16_224", pretrained=True)
