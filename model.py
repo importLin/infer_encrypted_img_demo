@@ -1,5 +1,4 @@
 from torch import nn
-from model.LoRA import LoRA_ViT_timm
 import timm
 import torch
 
